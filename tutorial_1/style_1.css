@@ -1,0 +1,57 @@
+html , body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#selector_id {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    background-color: rgb(219, 219, 219);
+}
+
+.Card {
+    background-color: white;
+    width: 256px;
+    height: 340px;
+    display: inline-block;
+    margin: 16px;
+    border: 4px solid rgb(230, 0, 0);
+   border-radius: 12px;
+   transition: box-shadow .25s,opacity .25s;
+   opacity: .50;
+   
+}
+.Card:hover {
+    box-shadow: 11px -9px 7px 3px rgba(0, 0, 0, 0.33);
+    opacity: 1;
+}
+.Card_dashed {
+    border: 4px dashed rgb(230, 0, 0);
+}
+.Card_radius-0 {
+border-radius: 0
+}
+.Card_radius-7 {
+    border-radius: 7px
+}
+
+.Card__imge {
+    height: 240px;
+    width: 256px;
+}
+
+.Card__title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.Card__info {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
