@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000;
+    background: rgb(255, 255, 255);
     overflow: hidden;
 }
 
@@ -18,7 +18,7 @@ body {
     position: relative;
     width: 100%;
     /* 10 шаг */
-    transform: rotate(-35deg);
+    transform: rotate(0deg);
     transition: transform ease-in-out .25s;
 }
 
@@ -53,11 +53,11 @@ body {
     width: 200px;
     height: 200px;
     /* background: #ff14bd; */
-    background: rgb(255, 255, 255);
-    box-shadow: 0 0 5px rgba(255, 255, 255, 1),
-    0 0 25px rgba(255, 255, 255, 1),
-    0 0 50px rgba(255, 255, 255, 1),
-    0 0 100px rgba(255, 255, 255, 1),
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+    0 0 25px rgb(255, 253, 253),
+    0 0 50px rgb(255, 255, 255),
+    0 0 100px rgb(255, 255, 255),
     0 0 200px rgba(255, 255, 255, 0.5),
     0 0 300px rgba(255, 255, 255, 0.5);
     /* 3 шаг */
