@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: white;
+    background-color: black;
     overflow: hidden;
 }
 .container{
@@ -31,23 +31,27 @@ body{
     width: 240px;
     height: 240px;
     border-radius: 30%;
-    background: #f503f5;
+    background-color: #f503f5;
     cursor: pointer;
-    box-shadow: 0 0 0 rgba(244, 3 , 232, 0.4);
+    box-shadow: 0 0 5px rgba(244, 3 , 232, 0.4),
+    0 0 25px rgba(0, 47, 255, 0.979),
+    0 0 50px rgba(255, 230, 0, 0.979),
+    0 0 100px rgba(7, 243, 105, 0.979),
+    0 0 200px rgba(253, 95, 4, 0.979),
+    0 0 300px rgba(12, 0, 255, 0.979);
     animation: pulse 2s infinite;
+    transition: background-color ease-in-out 0.25s, box-shadow ease-in-out 0.25s;
 }
 
 @keyframes pulse {
     0% {
-        transform: scale(0.5); 
-        opacity: 0;
+        transform: scale(1); 
     }
     50% {
-        opacity: 1;
+        transform: scale(1.2);
     }
     100% {
-        transform: scale(1.2);
-        opacity: 0;
+        transform: scale(1);
     }
 }
 
